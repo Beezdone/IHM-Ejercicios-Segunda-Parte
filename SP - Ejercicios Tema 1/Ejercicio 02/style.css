@@ -1,0 +1,55 @@
+button {
+  border: 0;
+  border-radius: 3px;
+  color: black;
+  -webkit-box-shadow: 0 0 0 0 rgba(252, 164, 56, 0);
+          box-shadow: 0 0 0 0 rgba(252, 164, 56, 0);
+  background-color: bisque;
+  -webkit-transition-property: background-color, -webkit-box-shadow;
+  transition-property: background-color, -webkit-box-shadow;
+  transition-property: background-color, box-shadow;
+  transition-property: background-color, box-shadow, -webkit-box-shadow;
+  -webkit-transition-duration: 450ms;
+          transition-duration: 450ms;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-delay: 0;
+          transition-delay: 0;
+}
+
+button:hover {
+  background-color: #fb8d06;
+  -webkit-transition: background-color 450ms ease;
+  transition: background-color 450ms ease;
+}
+
+button:focus {
+  -webkit-box-shadow: 0 0 0 4px rgba(252, 164, 56, 0.6);
+          box-shadow: 0 0 0 4px rgba(252, 164, 56, 0.6);
+  outline: 0px !important;
+  -webkit-appearance: none;
+  -webkit-transition-property: background-color, -webkit-box-shadow;
+  transition-property: background-color, -webkit-box-shadow;
+  transition-property: background-color, box-shadow;
+  transition-property: background-color, box-shadow, -webkit-box-shadow;
+  -webkit-transition-duration: 450ms;
+          transition-duration: 450ms;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-delay: 0;
+          transition-delay: 0;
+}
+
+button:disabled {
+  -webkit-transition-property: background-color, -webkit-box-shadow;
+  transition-property: background-color, -webkit-box-shadow;
+  transition-property: background-color, box-shadow;
+  transition-property: background-color, box-shadow, -webkit-box-shadow;
+  -webkit-transition-duration: 450ms;
+          transition-duration: 450ms;
+  -webkit-transition-timing-function: ease;
+          transition-timing-function: ease;
+  -webkit-transition-delay: 0;
+          transition-delay: 0;
+}
+/*# sourceMappingURL=style.css.map */

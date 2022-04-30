@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SP Ejercicio1.1</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    
+    <div onmouseover="show(aro);", onmouseout="showtwo(aro)", class="dropdown"> <!--cabecera | when the cursor is on or out *this* element, we change our arrow-->
+        
+        <span style="cursor:pointer"> <!-- features : cursor in HTML : https://www.educba.com/cursor-in-html/ -->
+          
+          <button class="dropbtn"> Label</button> 
+          <i , id="aro", class="arrow down"></i>
+          
+          <div class="dropdown-content"> <!--cuerpo-->
+            <a href="#">Item 1</a>
+            <a href="#">Item 2</a>
+            <a href="#">Item 3</a>
+            <a href="#">Item 4</a>
+          </div>
+          
+        </span>
+    </div>
+
+</body>
+
+<script language="javascript">
+
+  function show(btn){
+    var btns = document.querySelectorAll('i');
+    btn.classList.remove('down');
+    btn.classList.add('up');
+  }
+
+  function showtwo(btn){
+    var btns = document.querySelectorAll('i');
+    btn.classList.remove('up');
+    btn.classList.add('down');
+  }
+
+</script>
+
+</html>

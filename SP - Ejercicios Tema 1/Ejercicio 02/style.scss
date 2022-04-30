@@ -1,0 +1,44 @@
+$mycolor : rgb(252, 164, 56);
+
+//reference : https://www.youtube.com/watch?v=lXnxZYQX-lo 
+
+button{
+
+  border:0;
+  border-radius: 3px;
+  color: rgb(0, 0, 0);
+  
+  box-shadow: 0 0 0 0 rgba($mycolor, 0);
+  background-color: bisque;
+
+  //we need these lines to have a transition in the two way ("mouseover and mouseout")
+  transition-property: background-color, box-shadow;
+  transition-duration: 450ms;
+  transition-timing-function: ease;
+  transition-delay: 0;
+
+  &:hover{ //transition for hover
+    background-color: darken(rgb(252, 164, 56), 10);
+    transition: background-color 450ms ease;
+  }
+
+  &:focus{ //transition for focus
+    box-shadow: 0 0 0 4px rgba($mycolor, .6);
+
+    outline:0px !important;
+    -webkit-appearance:none;
+
+    transition-property: background-color, box-shadow;
+    transition-duration: 450ms;
+    transition-timing-function: ease;
+    transition-delay: 0;
+  }
+
+  &:disabled{
+    transition-property: background-color, box-shadow;
+    transition-duration: 450ms;
+    transition-timing-function: ease;
+    transition-delay: 0;
+  }
+
+}
