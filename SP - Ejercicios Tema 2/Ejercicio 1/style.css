@@ -1,0 +1,31 @@
+.filter-blue {
+  -webkit-filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+          filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+}
+
+.mystroketest {
+  stroke: #ff3939;
+  stroke-width: 2px;
+  stroke-dasharray: 1%;
+}
+
+/*
+other references : https://css-tricks.com/using-svg/ 
+                   https://stackoverflow.com/questions/24933430/img-src-svg-changing-the-styles-with-css 
+*/
+.fill2 {
+  fill: #ace63c;
+}
+
+.svg_exmp {
+  background-color: #09dada;
+}
+
+.svg_exmp .circle_01 {
+  width: 5000px;
+  height: 5000px;
+  fill: salmon;
+  stroke: #fa5644;
+  stroke-width: 5px;
+}
+/*# sourceMappingURL=style.css.map */

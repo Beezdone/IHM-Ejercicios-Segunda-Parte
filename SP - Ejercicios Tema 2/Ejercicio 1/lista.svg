@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="127" height="127">
+  <defs>
+    <linearGradient id="a" y1=".4" x2="1.1" y2=".3" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e1e4fb"/>
+      <stop offset="1" stop-color="#c5c9f7"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(-6.1 -6.1)">
+    <path data-name="Path 32344" d="M69.6 6.1A63.5 63.5 0 1 1 6.1 69.6 63.5 63.5 0 0 1 69.6 6.1Z" fill="#fe9923"/>
+    <rect data-name="Rectangle 8006" width="64" height="97" rx="1" transform="translate(39.1 22.1)" fill="#525354"/>
+    <rect data-name="Rectangle 8007" width="64" height="97" rx="1" transform="translate(37.1 21.1)" fill="url(#a)"/>
+    <rect data-name="Rectangle 8008" width="31.8" height="4" rx="1" transform="translate(62.5 32.6)" fill="#adacb2"/>
+    <rect data-name="Rectangle 8009" width="19.9" height="4" rx="1" transform="translate(62.5 40.8)" fill="#adacb2"/>
+    <rect data-name="Rectangle 8010" width="7.9" height="7.9" rx="1" transform="translate(47.4 34.7)" fill="#fff"/>
+    <path data-name="Path 32341" d="M49 38.5 47.7 37a1 1 0 0 0-1.6 0l-.9.9a1 1 0 0 0 0 1.5l4 4a1 1 0 0 0 1.5 0l1.7-1.7 5.3-5.3a1 1 0 0 0 0-1.5l-1-1a1 1 0 0 0-1.5 0l-4.5 4.6a1 1 0 0 1-1.5 0Z" fill="#3053c2"/>
+    <rect data-name="Rectangle 8011" width="31.8" height="4" rx="1" transform="translate(62.5 53.1)" fill="#adacb2"/>
+    <rect data-name="Rectangle 8012" width="19.9" height="4" rx="1" transform="translate(62.5 61.3)" fill="#adacb2"/>
+    <rect data-name="Rectangle 8013" width="7.9" height="7.9" rx="1" transform="translate(47.4 55.2)" fill="#fff"/>
+    <path data-name="Path 32342" d="m49 59-1.4-1.5a1 1 0 0 0-1.6 0l-.9 1a1 1 0 0 0 0 1.4l4 4a1 1 0 0 0 1.5 0l1.7-1.7 5.3-5.3a1 1 0 0 0 0-1.5l-1-1a1 1 0 0 0-1.5 0L50.6 59a1 1 0 0 1-1.5 0Z" fill="#3053c2"/>
+    <rect data-name="Rectangle 8014" width="31.8" height="4" rx="1" transform="translate(62.5 73.6)" fill="#adacb2"/>
+    <rect data-name="Rectangle 8015" width="19.9" height="4" rx="1" transform="translate(62.5 81.8)" fill="#adacb2"/>
+    <rect data-name="Rectangle 8016" width="7.9" height="7.9" rx="1" transform="translate(47.4 75.7)" fill="#fff"/>
+    <path data-name="Path 32343" d="M49 79.5 47.7 78a1 1 0 0 0-1.6 0l-.9 1a1 1 0 0 0 0 1.5l4 4a1 1 0 0 0 1.5 0l1.7-1.7 5.3-5.3a1 1 0 0 0 0-1.6l-1-1a1 1 0 0 0-1.5 0l-4.5 4.6a1 1 0 0 1-1.5 0Z" fill="#3053c2"/>
+    <rect data-name="Rectangle 8017" width="31.8" height="4" rx="1" transform="translate(62.5 94.2)" fill="#adacb2"/>
+    <rect data-name="Rectangle 8018" width="19.9" height="4" rx="1" transform="translate(62.5 102.3)" fill="#adacb2"/>
+    <rect data-name="Rectangle 8019" width="7.9" height="7.9" rx="1" transform="translate(47.4 96.2)" fill="#fff"/>
+  </g>
+</svg>

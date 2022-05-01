@@ -1,0 +1,41 @@
+
+// reference : https://stackoverflow.com/questions/22252472/how-to-change-the-color-of-an-svg-element 
+.filter-blue{
+    filter: invert(1) sepia(1) saturate(5) hue-rotate(175deg);
+}
+
+.mystroketest {
+    stroke:rgb(255, 57, 57);
+    stroke-width: 2px;
+    stroke-dasharray: 1%;
+}
+
+/*
+other references : https://css-tricks.com/using-svg/ 
+                   https://stackoverflow.com/questions/24933430/img-src-svg-changing-the-styles-with-css 
+*/
+
+
+
+
+
+//this is test codes, for personnal use only:
+
+.fill2{
+    fill: #ace63c; 
+}
+
+.svg_exmp {
+
+    background-color: rgb(9, 218, 218);
+
+    .circle_01 {
+        width: 5000px;
+        height: 5000px;
+        fill:salmon;
+        stroke: rgb(250, 86, 68);
+        stroke-width: 5px;
+    }
+
+
+}

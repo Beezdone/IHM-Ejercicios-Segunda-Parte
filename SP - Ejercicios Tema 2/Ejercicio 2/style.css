@@ -1,0 +1,27 @@
+svg {
+  background-color: rgba(163, 255, 163, 0.518);
+}
+
+@-webkit-keyframes openYourHeart {
+  from {
+    r: 0;
+  }
+  to {
+    r: 60px;
+  }
+}
+
+@keyframes openYourHeart {
+  from {
+    r: 0;
+  }
+  to {
+    r: 60px;
+  }
+}
+
+#myClip circle {
+  -webkit-animation: openYourHeart 5s infinite;
+          animation: openYourHeart 5s infinite;
+}
+/*# sourceMappingURL=style.css.map */

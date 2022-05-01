@@ -1,0 +1,10 @@
+svg{
+    background-color: rgba(163, 255, 163, 0.518);
+}
+
+@keyframes openYourHeart {from {r: 0} to {r: 60px}}
+#myClip circle {
+  animation: openYourHeart 5s infinite;
+}
+
+//another clippath reference : https://www.sarasoueidan.com/blog/css-svg-clipping/ 
