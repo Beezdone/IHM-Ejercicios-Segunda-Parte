@@ -1,0 +1,47 @@
+svg path {
+  -webkit-transition: d 0.35s;
+  transition: d 0.35s;
+}
+
+svg:hover path {
+  d: path("M5,4 Q 10,0 5,8");
+}
+
+/** other styles **/
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+svg {
+  outline: 1px solid #ccc;
+  width: 50vmin;
+  height: 50vmin;
+  cursor: pointer;
+  display: block;
+}
+
+p {
+  font-size: 5vmin;
+}
+
+svg path {
+  fill: transparent;
+  stroke: #ff6bb5;
+}
+/*# sourceMappingURL=style.css.map */
