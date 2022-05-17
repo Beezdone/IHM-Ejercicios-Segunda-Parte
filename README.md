@@ -7,4 +7,4 @@ Aqui se puede encontrar todos los ejercicios de la segunda parte de "Conceptos P
 - [x] Ejercicios Tema 1 : en el archivo "SP - Ejercicios Tema 1"
 - [x] Ejercicios Tema 2 : en el archivo "SP - Ejercicios Tema 2"
 - [x] Ejercicios Tema 3 : en el archivo "SP - Ejercicios Tema 3"
-- [ ] Ejercicios Tema 4
+- [x] Ejercicios Tema 4 : en el archivo "SP - Ejercicio Tema 4"
