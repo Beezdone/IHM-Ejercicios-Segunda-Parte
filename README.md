@@ -1,4 +1,4 @@
-# IHM-Ejercicios-Segunda-Parte
+# IHM-Ejercicios-Parte2 (web & human-machine interaction exercices)
 
 Aqui se puede encontrar todos los ejercicios de la segunda parte de "Conceptos Prácticos de Iteración Hombre Máquina"
 </br>
